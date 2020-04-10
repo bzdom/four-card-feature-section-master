@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <title>Frontend Mentor | Four card feature section</title>
+    <link href="reset.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      :root {
+        --color_primary-cyan: hsl(180, 62%, 55%);
+        --color_primary-red: hsl(0, 78%, 62%);
+        --color_primary-orange: hsl(34, 97%, 64%);
+        --color_primary-blue: hsl(212, 86%, 64%);
+        --color_natural-dark-blue: hsl(234, 12%, 34%);
+        --color_natural-grayish-blue: hsl(229, 6%, 66%);
+        --color_natural-light-gray: hsl(0, 0%, 98%);
+        --font-body: "Poppins", -system-ui, -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji,
+          Segoe UI Emoji, Segoe UI Symbol;
+      }
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      body {
+        background-color: var(--color_natural-light-gray);
+        font-family: var(--font-body);
+        font-size: 15px;
+      }
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      footer {
+        background-color: #fff;
+        border-top: 1px solid var(--color_natural-grayish-blue);
+        bottom: 0;
+        left: 0;
+        padding: 0.8rem 0;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+      }
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      .footer-place {
+        height: 53px;
+      }
+    </style>
+  </head>
+  <body>
+    Reliable, efficient delivery Powered by Technology Our Artificial
+    Intelligence powered tools use millions of project data points to ensure
+    that your project is successful Supervisor Monitors activity to identify
+    project roadblocks Team Builder Scans our talent network to create the
+    optimal team for your project Karma Regularly evaluates our talent to ensure
+    quality Calculator Uses data from past projects to provide better delivery
+    estimates
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+    <div class="footer-place"></div>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <small class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://monodon.net">Shahar Levy</a>.
+      </small>
+    </footer>
+  </body>
 </html>
